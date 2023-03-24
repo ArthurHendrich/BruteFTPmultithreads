@@ -5,7 +5,7 @@ This is a command-line tool for performing brute-force attacks against remote se
 
 ## Requirements
 
-***
+
 
 To compile and use this tool, you will need the following:
 
@@ -15,7 +15,7 @@ A remote service to test against (e.g., SSH server)
 
 ## Compilation
 
-***
+
 
 To compile the tool, run the following command:
 
@@ -28,7 +28,6 @@ This will create an executable file called bruteforce.
 
 ## Usage
 
-***
 
 The tool takes the following arguments:
 
@@ -56,7 +55,6 @@ $ ./bruteforce -u users.txt -p passwords.txt -t 4 localhost
 
 ## Implementation Details
 
-***
 
 The tool uses a multi-threaded approach to perform the brute-force attack. The user and password files are divided into chunks, and each thread is assigned a chunk to work on. The number of threads can be controlled using the `-t` option.
 
