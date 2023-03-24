@@ -15,4 +15,4 @@ typedef struct {
 
 void bruteForce(bruteForceArgs *args, int threads);
 
-#endif // BRUTEFORCE_H
+#endif 

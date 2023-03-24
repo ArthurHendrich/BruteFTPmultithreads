@@ -23,10 +23,12 @@ void usage()
 }
 
 
+
+
 int main(int argc, char *argv[]) {
     int opt, threads = 1, verbose = 0, ipv6 = 0;
     char *target = NULL, *user = NULL, *pass = NULL;
-    FILE *userFile = NULL, *passFile = NULL;
+    FILE *userFile = NULL, *passFile = NULL; 
 
     while ((opt = getopt(argc, argv, "u:U:p:P:t:ipv4ipv6vh")) != -1) {
         switch (opt) {
